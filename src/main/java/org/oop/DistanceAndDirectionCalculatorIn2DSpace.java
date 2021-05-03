@@ -1,12 +1,12 @@
 package org.oop;
 
-public class CircleDistanceAndDirectionCalculator implements DistanceAndDirectionCalculator{
+public class DistanceAndDirectionCalculatorIn2DSpace implements DistanceAndDirectionCalculator{
 
     Point from,to;
     private double xDistance;
     private double yDistance;
 
-    public CircleDistanceAndDirectionCalculator(Point from, Point to){
+    public DistanceAndDirectionCalculatorIn2DSpace(Point from, Point to){
         this.from = from;
         this.to = to;
     }

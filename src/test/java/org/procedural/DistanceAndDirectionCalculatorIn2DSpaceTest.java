@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.procedural.DistanceAndDirectionCalculator.direction;
 import static org.procedural.DistanceAndDirectionCalculator.distance;
 
-public class CircleDistanceAndDirectionCalculatorTest {
+public class DistanceAndDirectionCalculatorIn2DSpaceTest {
 
     @Test
     void twoPointsWithSameXAndYCoordinatesShouldHaveADistanceOfZero() {
